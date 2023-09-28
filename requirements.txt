@@ -7,3 +7,6 @@ pandas==2.0.0
 pyarrow==12.0.0
 plotly==5.14.1
 wandb==0.15.4
+jupyter
+imageio
+torchvision
