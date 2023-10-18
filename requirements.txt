@@ -10,3 +10,4 @@ wandb==0.15.4
 jupyter
 imageio
 torchvision
+scikit-image
