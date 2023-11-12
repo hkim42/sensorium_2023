@@ -1,4 +1,0 @@
-jupyter
-imageio
-torchvision
-scikit-image
