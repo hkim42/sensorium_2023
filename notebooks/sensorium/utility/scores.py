@@ -23,6 +23,7 @@ def model_predictions(
         if deeplake_ds:
             for k in batch_kwargs.keys():
                 if k not in ["id", "index"]:
+                    # batch_kwargs[k].cpu()
                     batch_kwargs[k] = torch.Tensor(np.asarray(batch_kwargs[k])).to(
                         device
                     )

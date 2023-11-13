@@ -228,6 +228,7 @@ def standard_trainer(
         model.eval()
         if save_checkpoints:
             if epoch % chpt_save_step == 0:
+                # print(f"{checkpoint_save_path}epoch_{epoch}.pth")
                 torch.save(
                     model.state_dict(), f"{checkpoint_save_path}epoch_{epoch}.pth"
                 )
